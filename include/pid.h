@@ -25,6 +25,7 @@ class PID
     void start(double err, double maxTime);
     void start(double err, double maxTime, double minSettingTime);
     void start(double err, double maxTime, double minSettingTime, double maxErrorForIntegral);
+
     void changeConst(double kP, double kI, double kD);
     void changeConst(double kP, double kI, double kD, double tolerance);
     bool isDone();

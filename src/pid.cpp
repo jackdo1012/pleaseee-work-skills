@@ -106,6 +106,7 @@ void PID::changeConst(double kP, double kI, double kD)
     this->kI = kI;
     this->kD = kD;
 }
+
 void PID::changeConst(double kP, double kI, double kD, double tolerance)
 {
     this->kP = kP;
